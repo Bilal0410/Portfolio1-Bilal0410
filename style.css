@@ -70,6 +70,7 @@ header {
 }
 .project-heading {
     margin-left: 8%;
+    font-size: 38px;
 }
 .cards {
     display: flex;
@@ -154,10 +155,10 @@ footer {
         flex-direction: column;
     }
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 700px) {
     .cards {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
     .intro {
         display: flex;
@@ -170,10 +171,25 @@ footer {
     .card1,
     .card2,
     .card3 {
-        width: 400px;
+        width: 600px;
+        height: 620px;
+    }
+    .project-img {
+        width: 600px;
+    }
+}
+@media screen and (min-width: 1150px) {
+    .cards {
+        display: flex;
+        flex-direction: row;
+    }
+    .card1,
+    .card2,
+    .card3 {
+        width: 328px;
         height: 550px;
     }
     .project-img {
-        width: 400px;
+        width: 328px;
     }
 }
