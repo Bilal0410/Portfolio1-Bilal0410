@@ -3,10 +3,9 @@
 # Report
 
 In this assignment, i have documented three prior submissions from the first year:
-Project Exam 1
-The Semester Project
-The cross-course project
-
+- Project Exam 1
+- The Semester Project
+- The cross-course project
 This is a portfolio webpage that lists these 3 projects.
 
 This page lists the 3 projects as cards.
